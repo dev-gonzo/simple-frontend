@@ -22,6 +22,9 @@ function App() {
           count is {count}
         </button>
         <p>
+          {import.meta.env?.VITE_BASE}
+        </p>
+        <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
